@@ -81,7 +81,12 @@ Quantitative
 **Solution:**
 Qualitative
 
+# Task 3
+Identify the type (quantitative of qualitative) of each variable. (Note: The dependent variable in the study was peak load of a single stud.)
 
+## a. Type of sheathing (Bare, Gypsum, or OSB)
+**Solution:**
+Qualitative
 
 
 
