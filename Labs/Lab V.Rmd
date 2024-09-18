@@ -1,0 +1,129 @@
+---
+title: "Lab V: Model Building, Part I"
+author: "Kylie Humble"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+file_path <- "/Users/kyliehumble/Documents/Aspiring Towards My Master's/University of Oklahoma - Statistics/MATH 5743/R Programming/K25936_Downloads/Excel/"
+```
+
+# About This Assignment
+The theory covered in MS 12: 1 - 4 will be investigated and elaborated in this lab, namely:
+
+- Why we build models and what we seek to accomplish.
+- What is the importance of variable types? Categorical variables can be given attributes that help in the analysis.
+- How should we analyze and compare models with a single quantitative variable?
+- Similarly, how should we analyze and compare models with several different quantitative independent variables?
+- The matrix framework will also be investigated when larger more complex models are created.
+
+# Objectives
+The lab will require you to answer several carefully selected problems from the book which will guide you in perfecting your understanding of the models introduced.
+
+- Learn the different types of models
+- Learn how to interpret models with interaction
+- Make `lm()` objects form a model statement
+- Use matrix methods to calculate statistics
+- Use `lm()` objects and methods to simplify the creation of statistics
+
+# Introduction
+Many problems will be taken directly out of the textbook. The question number will be given. Please read the question and use the available data supplied on CANVAS for the course.
+
+**This lab utilizes the following dependencies and data:**
+```{r, message=FALSE}
+library(readxl)
+# drillmetal <- read_excel(paste0(file_path, "DRILLMETAL.XLS"))
+# wafer <- read_excel(paste0(file_path, "WAFER.XLS"))
+# baypcb <- read_excel(paste0(file_path, "BAYPCB.XLS"))
+# ftc2 <- read_excel(paste0(file_path, "FTC2.XLS"))
+# clerical <- read_excel(paste0(file_path, "CLERICAL.XLS"))
+# Pages (DELETE): 646
+```
+
+# Tasks
+
+# Task 1
+Question 12.1
+
+## a. Identify the dependent variable, $y$, for the study.
+**Solution:**
+The nitrate concentration (milligrams per liter).
+
+## b. Identify the independent variable and give its types (quantitative or qualitative).
+**Solution:**
+Water source; qualitative
+
+# Task 2
+Identify the type (quantitative or qualitative) of each variable.
+
+## a. Diesel fuel type (HSD, MO, MB100, SRO, or B20)
+**Solution:**
+Qualitative
+
+## b. Water content (parts per million)
+**Solution:**
+Quantitative
+
+## c. Flash point temperature (degrees Centigrade)
+**Solution:**
+Quantitative
+
+## d. Fuel density (kilograms per cubic meter)
+**Solution:**
+Quantitative
+
+## e. Location of soot deposits (cylinder head, piston crown, or fuel injector) 
+**Solution:**
+Qualitative
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
